@@ -1,0 +1,114 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/share"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:id="@+id/tv1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="111dp"
+    android:text="SHARE"
+    android:textColor="#FAFAFA"
+    android:textSize="50sp" />
+
+<EditText
+android:id="@+id/e1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tv1"
+android:layout_centerHorizontal="true"
+android:layout_marginStart="5dp"
+android:layout_marginLeft="5dp"
+android:layout_marginTop="28dp"
+android:layout_marginEnd="5dp"
+android:layout_marginRight="5dp"
+android:layout_marginBottom="5dp"
+android:ems="12"
+android:hint="Name"
+android:textColor="@color/white"
+android:textColorHint="@color/white" />
+
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/e1"
+android:layout_centerHorizontal="true"
+android:textColorHint="@color/white"
+android:inputType="phone"
+android:ems="12"
+android:textColor="@color/white"
+android:hint="Phone"
+android:id="@+id/e2"/>
+
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/e2"
+android:layout_centerHorizontal="true"
+android:textColor="@color/white"
+android:hint="Description"
+android:textColorHint="@color/white"
+android:ems="12"
+android:id="@+id/e3"/>
+
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/e3"
+android:layout_centerHorizontal="true"
+android:textColor="@color/white"
+android:textColorHint="@color/white"
+android:hint="Quantity"
+android:ems="12"
+android:id="@+id/e4"/>
+
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/e4"
+android:layout_centerHorizontal="true"
+android:textColorHint="@color/white"
+android:textColor="@color/white"
+android:hint="Address"
+android:ems="12"
+android:id="@+id/e5"/>
+
+<Button
+android:id="@+id/b1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/e5"
+android:layout_marginLeft="55dp"
+android:layout_marginTop="20dp"
+android:background="@color/white"
+android:textColor="@color/white"
+android:text="share" />
+
+<Button
+android:id="@+id/b2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/e5"
+android:layout_marginLeft="235dp"
+android:layout_marginTop="20dp"
+android:background="@color/black"
+android:text="back"
+android:textColor="@color/white" />
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/b2"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="15dp"
+android:text='"Hunger is not an issue of charity.It is an issue of justice.Any query call-917702852625"'
+android:textColor="@color/white"
+android:textSize="16sp"
+android:textStyle="italic" />
+
+    </RelativeLayout>
